@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Handjet:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Handjet:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,10 +6,15 @@
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(#186a5e, #053339);
+  background: linear-gradient(
+    58.2deg,
+    rgba(40, 91, 212, 0.73) -3%,
+    rgba(171, 53, 163, 0.45) 49.3%,
+    rgba(255, 204, 112, 0.37) 97.7%
+  );
   color: #e1eeeb;
   min-height: 100vh;
 }
@@ -18,13 +23,13 @@ body {
   max-width: 60rem;
   margin: 2rem auto;
   padding: 2rem;
-  background: radial-gradient(#0b201d, #021619);
+  background: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 h1 {
-  font-family: 'Handjet', monospace;
+  font-family: "Handjet", monospace;
   text-align: center;
   text-transform: uppercase;
   color: #c1e2dd;
@@ -50,7 +55,7 @@ header p {
 }
 
 #player h2 {
-  color: #54a399;
+  color: #642b4f;
 }
 
 #player p {
@@ -158,7 +163,7 @@ header p {
 }
 
 .result-modal h2 {
-  font-family: 'Handjet', monospace;
+  font-family: "Handjet", monospace;
   margin: 0 0 0.25rem 0;
   font-size: 3rem;
   text-transform: uppercase;
