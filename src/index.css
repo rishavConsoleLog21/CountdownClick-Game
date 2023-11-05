@@ -106,7 +106,7 @@ header p {
   justify-content: center;
   padding: 2rem;
   margin: 2rem auto;
-  background: linear-gradient(#4df8df, #4df0f8);
+  background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); 
   color: #221c18;
   box-shadow: 0 2px 8px rgba(35, 34, 34, 0.6);
   border-radius: 6px;
